@@ -1,0 +1,80 @@
+.login{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+.loginpage{
+    
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 60%;
+    height: 80%;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+}
+.itemslogin{
+    width: 50%;
+}
+
+.itemslogin1{
+    background-color: rgb(121, 121, 121);
+    background-image: url(../img/19.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.itemslogin2{
+    background-color: #2E2925;
+    display: flex;
+    flex-direction: column;
+}
+.itemainput{
+    text-align: right;
+    align-content: end;
+    font-size: 200%;
+    font-weight: 900;
+}
+.itemainput1{
+    height: 20%;
+    text-align: center;
+}
+.itemainput2{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.textinput{
+    border-radius: 10px;
+    border: none;
+    direction: rtl;
+    width: 70%;
+    height: 5%;
+    outline: none;
+    background-color: #D9D9D9;
+}
+input[type=button]{
+    width: 20%;
+    height: 5%;
+    border-radius: 10px;
+    border: none;
+
+}
+input[type=button]:active{
+    box-shadow: 2px 2px 4px #363636;
+    transform: rotate(2px , 2px);
+    background-color: #c3c2c2 ;
+}
+h1{
+    margin: 2%;
+}
